@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-export default function() {
+export default function Hero() {
     return (
         <main className="w-full desktop:h-4/5 flex py-5 flex-col-reverse desktop:flex-row z-0">
             <div className="desktop:w-3/4 flex flex-col items-center desktop:items-start desktop:px-28 justify-center gap-6 z-0 relative">
@@ -15,7 +15,7 @@ export default function() {
                     Get teal in sync, no matter your location. Streamline processes, create team ritual, and watch productivity soar.
                 </p>
                 <Link href={'/'} className="bg-secondary text-background rounded-3xl px-10 py-5 text-lg font-heavy hover:text-secondary hover:bg-background transition-colors duration-300 mt-2 border border-secondary">Learn More</Link>
-                <div className="flex w-full gap-5 desktop:gap-20 justify-between px-6 desktop:px-0 desktop:justify-start desktop:px-28 items-center py-5 desktop:absolute desktop:bottom-0 desktop:left-0">
+                <div className="flex w-full gap-5 desktop:gap-20 justify-between px-6 desktop:justify-start desktop:px-28 items-center py-5 desktop:absolute desktop:bottom-0 desktop:left-0">
                     <Link href={'/'} className="cursor-pointer">
                         <Image src={'/images/1-client-databiz.svg'} width={114} height={20} alt="databiz"/>
                     </Link>
